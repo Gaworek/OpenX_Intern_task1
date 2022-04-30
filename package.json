@@ -1,0 +1,22 @@
+{
+  "name": "intern_task1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "file.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gaworek/OpenX_intern_task1.git"
+  },
+  "author": "Gaworek Wiktor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gaworek/OpenX_intern_task1/issues"
+  },
+  "homepage": "https://github.com/Gaworek/OpenX_intern_task1#readme",
+  "devDependencies": {
+    "jest": "^28.0.3"
+  }
+}
