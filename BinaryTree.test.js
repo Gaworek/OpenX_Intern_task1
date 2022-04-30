@@ -1,14 +1,4 @@
-const {Node, BinaryTree} = require("./file.js")
-
-test('Are nodes correctly checked to be leafs', () => { 
-    let node = new Node()
-    node.leftNode = new Node()
-    expect(node.isLeaf()).toBe(false)
-    expect(node.leftNode.isLeaf()).toBe(true)
-
-    node = new Node();
-    expect(node.isLeaf()).toBe(true)
- })
+const { BinaryTree, Node } = require("./BinaryTree.js")
 
  test('Calculate max edge length', () => { 
     let tree = new BinaryTree(new Node(5));
